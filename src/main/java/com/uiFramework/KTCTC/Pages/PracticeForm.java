@@ -42,6 +42,7 @@ By moveTointerctions= By.xpath("//*[@class='element-group']//*[contains(text(),'
 public PracticeForm (WebDriver driver)
 {
 	this.driver=driver;
+	
 
 }
 
@@ -52,7 +53,7 @@ public void navigateToPracticeFormPage()
 	//javaScriptHelper.scrollToElement(driver.findElement(moveTointerctions));
 	driver.findElement(practiceFormLink).click();
 	log.info("Navigation Sucessful");
-
+System.out.println(" ");
 }
 
 
